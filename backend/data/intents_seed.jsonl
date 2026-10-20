@@ -1,0 +1,200 @@
+{"text": "um what's the status of order six three nine seven", "expected": {"intent": "order_status", "order_id": "6397", "item": null}}
+{"text": "so my order three nine zero zero came with the wrong garlic bread", "expected": {"intent": "wrong_item", "order_id": "3900", "item": "garlic bread"}}
+{"text": "um the payment for order 7068 is wrong", "expected": {"intent": "payment_issue", "order_id": "7068", "item": null}}
+{"text": "where is my order it's been an hour", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "yeah order 4040 is really late", "expected": {"intent": "late_order", "order_id": "4040", "item": null}}
+{"text": "um has order seven one one seven been picked up yet", "expected": {"intent": "order_status", "order_id": "7117", "item": null}}
+{"text": "um wrong sandwich in my order", "expected": {"intent": "wrong_item", "order_id": null, "item": "sandwich"}}
+{"text": "um order five five seven is missing the sandwich", "expected": {"intent": "missing_item", "order_id": "557", "item": "sandwich"}}
+{"text": "uh transfer me to an agent", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "i was charged twice for order five four five eight", "expected": {"intent": "payment_issue", "order_id": "5458", "item": null}}
+{"text": "yeah my pizza is missing from order 6264", "expected": {"intent": "missing_item", "order_id": "6264", "item": "pizza"}}
+{"text": "okay so why is order five eight four one so late", "expected": {"intent": "late_order", "order_id": "5841", "item": null}}
+{"text": "so please refund my order", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "okay so can you refund order six nine five one the fries was inedible", "expected": {"intent": "refund_request", "order_id": "6951", "item": "fries"}}
+{"text": "hi something is missing from my order", "expected": {"intent": "missing_item", "order_id": null, "item": null}}
+{"text": "uh it's been ninety minutes and order seven eight zero one isn't here", "expected": {"intent": "late_order", "order_id": "7801", "item": null}}
+{"text": "okay so order 7941 is missing the tacos", "expected": {"intent": "missing_item", "order_id": "7941", "item": "tacos"}}
+{"text": "so please cancel order 3367 i don't need it anymore", "expected": {"intent": "cancel_order", "order_id": "3367", "item": null}}
+{"text": "hi refund order one two nine nine please", "expected": {"intent": "refund_request", "order_id": "1299", "item": null}}
+{"text": "okay so can i get my money back for order eight nine one", "expected": {"intent": "refund_request", "order_id": "891", "item": null}}
+{"text": "uh you sent me the wrong food", "expected": {"intent": "wrong_item", "order_id": null, "item": null}}
+{"text": "okay so why is order 5896 so late", "expected": {"intent": "late_order", "order_id": "5896", "item": null}}
+{"text": "my card got charged but the order failed", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "the driver is taking forever", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "yeah my chicken wings is missing from order 3814", "expected": {"intent": "missing_item", "order_id": "3814", "item": "chicken wings"}}
+{"text": "um can you refund order 9569 the garlic bread was inedible", "expected": {"intent": "refund_request", "order_id": "9569", "item": "garlic bread"}}
+{"text": "so give me my money back the pad thai was terrible", "expected": {"intent": "refund_request", "order_id": null, "item": "pad thai"}}
+{"text": "can you refund order six zero two four the salad was inedible", "expected": {"intent": "refund_request", "order_id": "6024", "item": "salad"}}
+{"text": "hi refund order 8233 please", "expected": {"intent": "refund_request", "order_id": "8233", "item": null}}
+{"text": "okay so can i cancel the sushi roll order", "expected": {"intent": "cancel_order", "order_id": null, "item": "sushi roll"}}
+{"text": "so i didn't get my pad thai", "expected": {"intent": "missing_item", "order_id": null, "item": "pad thai"}}
+{"text": "um transfer me to an agent", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "i'd like a refund for the noodles", "expected": {"intent": "refund_request", "order_id": null, "item": "noodles"}}
+{"text": "refund order three seven two two please", "expected": {"intent": "refund_request", "order_id": "3722", "item": null}}
+{"text": "okay so why was i charged extra", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "okay so the sandwich wasn't in the bag", "expected": {"intent": "missing_item", "order_id": null, "item": "sandwich"}}
+{"text": "yeah what's the status of order 5656", "expected": {"intent": "order_status", "order_id": "5656", "item": null}}
+{"text": "transfer me to an agent", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "um i want a refund for order four zero nine nine", "expected": {"intent": "refund_request", "order_id": "4099", "item": null}}
+{"text": "stop my order 8005", "expected": {"intent": "cancel_order", "order_id": "8005", "item": null}}
+{"text": "okay so my order 984 came with the wrong pad thai", "expected": {"intent": "wrong_item", "order_id": "984", "item": "pad thai"}}
+{"text": "when will my food arrive", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "why was i charged extra", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "can you refund order two zero two nine the coke was inedible", "expected": {"intent": "refund_request", "order_id": "2029", "item": "coke"}}
+{"text": "uh i want to speak to a real person", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "where is my order it's been an hour", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "hi you sent me the wrong food", "expected": {"intent": "wrong_item", "order_id": null, "item": null}}
+{"text": "so give me my money back the pizza was terrible", "expected": {"intent": "refund_request", "order_id": null, "item": "pizza"}}
+{"text": "okay so please cancel order 791 i don't need it anymore", "expected": {"intent": "cancel_order", "order_id": "791", "item": null}}
+{"text": "wrong salad in my order", "expected": {"intent": "wrong_item", "order_id": null, "item": "salad"}}
+{"text": "this isn't what i ordered i got fries instead", "expected": {"intent": "wrong_item", "order_id": null, "item": "fries"}}
+{"text": "okay so cancel order seven three six two", "expected": {"intent": "cancel_order", "order_id": "7362", "item": null}}
+{"text": "this isn't what i ordered i got pad thai instead", "expected": {"intent": "wrong_item", "order_id": null, "item": "pad thai"}}
+{"text": "yeah the coke wasn't in the bag", "expected": {"intent": "missing_item", "order_id": null, "item": "coke"}}
+{"text": "so please refund my order", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "yeah i want a refund for order 9243", "expected": {"intent": "refund_request", "order_id": "9243", "item": null}}
+{"text": "okay so can i cancel the sushi roll order", "expected": {"intent": "cancel_order", "order_id": null, "item": "sushi roll"}}
+{"text": "okay so let me talk to a human", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "track order six zero nine nine", "expected": {"intent": "order_status", "order_id": "6099", "item": null}}
+{"text": "my food still hasn't arrived", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "uh it's been ninety minutes and order 2381 isn't here", "expected": {"intent": "late_order", "order_id": "2381", "item": null}}
+{"text": "uh i want a refund for order 1788", "expected": {"intent": "refund_request", "order_id": "1788", "item": null}}
+{"text": "yeah where is my order it's been an hour", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "okay so where is my order it's been an hour", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "so something is missing from my order", "expected": {"intent": "missing_item", "order_id": null, "item": null}}
+{"text": "hi give me my money back the fries was terrible", "expected": {"intent": "refund_request", "order_id": null, "item": "fries"}}
+{"text": "yeah order 2486 has someone else's burrito", "expected": {"intent": "wrong_item", "order_id": "2486", "item": "burrito"}}
+{"text": "can i talk to someone please", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "hi track order 7170", "expected": {"intent": "order_status", "order_id": "7170", "item": null}}
+{"text": "so track order six nine two six", "expected": {"intent": "order_status", "order_id": "6926", "item": null}}
+{"text": "uh i was charged twice for order four three six eight", "expected": {"intent": "payment_issue", "order_id": "4368", "item": null}}
+{"text": "okay so please cancel order eight eight one three i don't need it anymore", "expected": {"intent": "cancel_order", "order_id": "8813", "item": null}}
+{"text": "uh when will my food arrive", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "where is my order it's been an hour", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "uh order 2064 is really late", "expected": {"intent": "late_order", "order_id": "2064", "item": null}}
+{"text": "i was charged twice for order three zero seven four", "expected": {"intent": "payment_issue", "order_id": "3074", "item": null}}
+{"text": "why is order 6585 so late", "expected": {"intent": "late_order", "order_id": "6585", "item": null}}
+{"text": "is my order on the way", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "okay so the sandwich wasn't in the bag", "expected": {"intent": "missing_item", "order_id": null, "item": "sandwich"}}
+{"text": "uh stop my order 7932", "expected": {"intent": "cancel_order", "order_id": "7932", "item": null}}
+{"text": "can i get my money back for order six two zero one", "expected": {"intent": "refund_request", "order_id": "6201", "item": null}}
+{"text": "um why is order five five eight so late", "expected": {"intent": "late_order", "order_id": "558", "item": null}}
+{"text": "this isn't what i ordered i got tacos instead", "expected": {"intent": "wrong_item", "order_id": null, "item": "tacos"}}
+{"text": "yeah has order five three one eight been picked up yet", "expected": {"intent": "order_status", "order_id": "5318", "item": null}}
+{"text": "what's the status of order seven seven six three", "expected": {"intent": "order_status", "order_id": "7763", "item": null}}
+{"text": "order 2885 is really late", "expected": {"intent": "late_order", "order_id": "2885", "item": null}}
+{"text": "so the driver is taking forever", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "um get me a manager", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "okay so please cancel order one one one one i don't need it anymore", "expected": {"intent": "cancel_order", "order_id": "1111", "item": null}}
+{"text": "so refund order 1633 please", "expected": {"intent": "refund_request", "order_id": "1633", "item": null}}
+{"text": "uh what's the status of order five two seven seven", "expected": {"intent": "order_status", "order_id": "5277", "item": null}}
+{"text": "uh order 7989 has someone else's garlic bread", "expected": {"intent": "wrong_item", "order_id": "7989", "item": "garlic bread"}}
+{"text": "is my order on the way", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "okay so you sent me the wrong food", "expected": {"intent": "wrong_item", "order_id": null, "item": null}}
+{"text": "um the noodles wasn't in the bag", "expected": {"intent": "missing_item", "order_id": null, "item": "noodles"}}
+{"text": "cancel order two nine two three", "expected": {"intent": "cancel_order", "order_id": "2923", "item": null}}
+{"text": "um i want to cancel my order", "expected": {"intent": "cancel_order", "order_id": null, "item": null}}
+{"text": "uh i need a refund the food was cold", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "order six zero seven four is really late", "expected": {"intent": "late_order", "order_id": "6074", "item": null}}
+{"text": "okay so can i cancel the pad thai order", "expected": {"intent": "cancel_order", "order_id": null, "item": "pad thai"}}
+{"text": "i want to speak to a real person", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "okay so cancel order 6991", "expected": {"intent": "cancel_order", "order_id": "6991", "item": null}}
+{"text": "yeah i'd like a refund for the pizza", "expected": {"intent": "refund_request", "order_id": null, "item": "pizza"}}
+{"text": "my pizza is missing from order 6026", "expected": {"intent": "missing_item", "order_id": "6026", "item": "pizza"}}
+{"text": "the driver is taking forever", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "um give me my money back the burger was terrible", "expected": {"intent": "refund_request", "order_id": null, "item": "burger"}}
+{"text": "please refund my order", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "track order 9177", "expected": {"intent": "order_status", "order_id": "9177", "item": null}}
+{"text": "i'd like a refund for the chicken wings", "expected": {"intent": "refund_request", "order_id": null, "item": "chicken wings"}}
+{"text": "uh has order 9267 been picked up yet", "expected": {"intent": "order_status", "order_id": "9267", "item": null}}
+{"text": "uh order 5978 has someone else's garlic bread", "expected": {"intent": "wrong_item", "order_id": "5978", "item": "garlic bread"}}
+{"text": "has order 6625 been picked up yet", "expected": {"intent": "order_status", "order_id": "6625", "item": null}}
+{"text": "okay so my food still hasn't arrived", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "yeah it's been ninety minutes and order 3024 isn't here", "expected": {"intent": "late_order", "order_id": "3024", "item": null}}
+{"text": "is my order on the way", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "um what's the status of order 8672", "expected": {"intent": "order_status", "order_id": "8672", "item": null}}
+{"text": "um can i talk to someone please", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "so the driver is taking forever", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "it's been ninety minutes and order 9018 isn't here", "expected": {"intent": "late_order", "order_id": "9018", "item": null}}
+{"text": "can you refund order 7009 the burger was inedible", "expected": {"intent": "refund_request", "order_id": "7009", "item": "burger"}}
+{"text": "yeah can i get my money back for order 8704", "expected": {"intent": "refund_request", "order_id": "8704", "item": null}}
+{"text": "yeah i didn't get my sushi roll", "expected": {"intent": "missing_item", "order_id": null, "item": "sushi roll"}}
+{"text": "can i talk to someone please", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "yeah is my order on the way", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "hi this isn't what i ordered i got burrito instead", "expected": {"intent": "wrong_item", "order_id": null, "item": "burrito"}}
+{"text": "hi please refund my order", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "so the payment for order 4432 is wrong", "expected": {"intent": "payment_issue", "order_id": "4432", "item": null}}
+{"text": "okay so my sandwich is missing from order five nine two seven", "expected": {"intent": "missing_item", "order_id": "5927", "item": "sandwich"}}
+{"text": "hi my card got charged but the order failed", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "so i got the wrong item in order eight two three four", "expected": {"intent": "wrong_item", "order_id": "8234", "item": null}}
+{"text": "the noodles wasn't in the bag", "expected": {"intent": "missing_item", "order_id": null, "item": "noodles"}}
+{"text": "uh when will my food arrive", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "okay so something is missing from my order", "expected": {"intent": "missing_item", "order_id": null, "item": null}}
+{"text": "i want a refund for order seven zero five five", "expected": {"intent": "refund_request", "order_id": "7055", "item": null}}
+{"text": "so when will my food arrive", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "um order 4983 is missing the garlic bread", "expected": {"intent": "missing_item", "order_id": "4983", "item": "garlic bread"}}
+{"text": "something is missing from my order", "expected": {"intent": "missing_item", "order_id": null, "item": null}}
+{"text": "yeah i didn't get my chicken wings", "expected": {"intent": "missing_item", "order_id": null, "item": "chicken wings"}}
+{"text": "you sent me the wrong food", "expected": {"intent": "wrong_item", "order_id": null, "item": null}}
+{"text": "hi i want a refund for order 5405", "expected": {"intent": "refund_request", "order_id": "5405", "item": null}}
+{"text": "why was i charged extra", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "wrong sushi roll in my order", "expected": {"intent": "wrong_item", "order_id": null, "item": "sushi roll"}}
+{"text": "yeah i got the wrong item in order 6420", "expected": {"intent": "wrong_item", "order_id": "6420", "item": null}}
+{"text": "my order six six eight zero came with the wrong sushi roll", "expected": {"intent": "wrong_item", "order_id": "6680", "item": "sushi roll"}}
+{"text": "uh the driver is taking forever", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "i need a refund the food was cold", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "yeah my fries is missing from order five two zero nine", "expected": {"intent": "missing_item", "order_id": "5209", "item": "fries"}}
+{"text": "double charge on my card", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "so order seven eight six eight is missing the fries", "expected": {"intent": "missing_item", "order_id": "7868", "item": "fries"}}
+{"text": "track order one four seven seven", "expected": {"intent": "order_status", "order_id": "1477", "item": null}}
+{"text": "uh my food still hasn't arrived", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "yeah i'd like a refund for the sandwich", "expected": {"intent": "refund_request", "order_id": null, "item": "sandwich"}}
+{"text": "okay so give me my money back the pizza was terrible", "expected": {"intent": "refund_request", "order_id": null, "item": "pizza"}}
+{"text": "my order four six nine came with the wrong pad thai", "expected": {"intent": "wrong_item", "order_id": "469", "item": "pad thai"}}
+{"text": "so double charge on my card", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "my order two seven five nine came with the wrong fries", "expected": {"intent": "wrong_item", "order_id": "2759", "item": "fries"}}
+{"text": "please refund my order", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "hi i want to speak to a real person", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "so can i get my money back for order 5672", "expected": {"intent": "refund_request", "order_id": "5672", "item": null}}
+{"text": "hi i'd like a refund for the salad", "expected": {"intent": "refund_request", "order_id": null, "item": "salad"}}
+{"text": "okay so let me talk to a human", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "so my food still hasn't arrived", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "i need a refund the food was cold", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "when will my food arrive", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "hi wrong salad in my order", "expected": {"intent": "wrong_item", "order_id": null, "item": "salad"}}
+{"text": "uh order five five zero one is missing the garlic bread", "expected": {"intent": "missing_item", "order_id": "5501", "item": "garlic bread"}}
+{"text": "okay so i got the wrong item in order 2156", "expected": {"intent": "wrong_item", "order_id": "2156", "item": null}}
+{"text": "um you sent me the wrong food", "expected": {"intent": "wrong_item", "order_id": null, "item": null}}
+{"text": "uh i didn't get my burger", "expected": {"intent": "missing_item", "order_id": null, "item": "burger"}}
+{"text": "yeah double charge on my card", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "yeah why is order 131 so late", "expected": {"intent": "late_order", "order_id": "131", "item": null}}
+{"text": "stop my order 556", "expected": {"intent": "cancel_order", "order_id": "556", "item": null}}
+{"text": "i want to cancel my order", "expected": {"intent": "cancel_order", "order_id": null, "item": null}}
+{"text": "my card got charged but the order failed", "expected": {"intent": "payment_issue", "order_id": null, "item": null}}
+{"text": "it's been ninety minutes and order 9779 isn't here", "expected": {"intent": "late_order", "order_id": "9779", "item": null}}
+{"text": "has order 8492 been picked up yet", "expected": {"intent": "order_status", "order_id": "8492", "item": null}}
+{"text": "is my order on the way", "expected": {"intent": "order_status", "order_id": null, "item": null}}
+{"text": "um i need a refund the food was cold", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "let me talk to a human", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "wrong burrito in my order", "expected": {"intent": "wrong_item", "order_id": null, "item": "burrito"}}
+{"text": "um my food still hasn't arrived", "expected": {"intent": "late_order", "order_id": null, "item": null}}
+{"text": "okay so i want to cancel my order", "expected": {"intent": "cancel_order", "order_id": null, "item": null}}
+{"text": "hi this isn't what i ordered i got tacos instead", "expected": {"intent": "wrong_item", "order_id": null, "item": "tacos"}}
+{"text": "okay so i want to cancel my order", "expected": {"intent": "cancel_order", "order_id": null, "item": null}}
+{"text": "stop my order 3100", "expected": {"intent": "cancel_order", "order_id": "3100", "item": null}}
+{"text": "get me a manager", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "yeah i need a refund the food was cold", "expected": {"intent": "refund_request", "order_id": null, "item": null}}
+{"text": "can i get my money back for order 3757", "expected": {"intent": "refund_request", "order_id": "3757", "item": null}}
+{"text": "so i got the wrong item in order 1203", "expected": {"intent": "wrong_item", "order_id": "1203", "item": null}}
+{"text": "okay so refund order nine six four eight please", "expected": {"intent": "refund_request", "order_id": "9648", "item": null}}
+{"text": "uh i didn't get my sandwich", "expected": {"intent": "missing_item", "order_id": null, "item": "sandwich"}}
+{"text": "uh order six zero five seven has someone else's coke", "expected": {"intent": "wrong_item", "order_id": "6057", "item": "coke"}}
+{"text": "hi order two two one nine has someone else's noodles", "expected": {"intent": "wrong_item", "order_id": "2219", "item": "noodles"}}
+{"text": "okay so the payment for order 4337 is wrong", "expected": {"intent": "payment_issue", "order_id": "4337", "item": null}}
+{"text": "so can i cancel the burger order", "expected": {"intent": "cancel_order", "order_id": null, "item": "burger"}}
+{"text": "order four five zero is really late", "expected": {"intent": "late_order", "order_id": "450", "item": null}}
+{"text": "so something is missing from my order", "expected": {"intent": "missing_item", "order_id": null, "item": null}}
+{"text": "i got the wrong item in order two five seven two", "expected": {"intent": "wrong_item", "order_id": "2572", "item": null}}
+{"text": "um get me a manager", "expected": {"intent": "speak_to_agent", "order_id": null, "item": null}}
+{"text": "uh cancel order nine two seven nine", "expected": {"intent": "cancel_order", "order_id": "9279", "item": null}}
