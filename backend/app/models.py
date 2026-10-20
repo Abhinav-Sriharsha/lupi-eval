@@ -52,7 +52,9 @@ class Result(Base):
     run_id: Mapped[int] = mapped_column(ForeignKey("runs.id"), index=True)
     example_id: Mapped[int] = mapped_column(ForeignKey("examples.id"))
     raw_output: Mapped[str | None] = mapped_column(Text, nullable=True)  # exactly what the model said
-    predicted: Mapped[dict | None] = mapped_column(JSON, nullable=True)  # None if output wasn't valid JSON
+    # none_as_null=True: store Python None as a real SQL NULL (not the JSON value null),
+    # so "invalid JSON" answers are easy to count later.
+    predicted: Mapped[dict | None] = mapped_column(JSON(none_as_null=True), nullable=True)
     latency_ms: Mapped[float | None] = mapped_column(Float, nullable=True)
     input_tokens: Mapped[int | None] = mapped_column(Integer, nullable=True)
     output_tokens: Mapped[int | None] = mapped_column(Integer, nullable=True)
