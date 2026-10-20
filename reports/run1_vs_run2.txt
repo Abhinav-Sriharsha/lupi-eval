@@ -1,0 +1,37 @@
+Metric                 run 1: openai/gpt-oss-20b  run 2: openai/gpt-oss-120b
+----------------------------------------------------------------------------
+Examples                                     200                         200
+Valid JSON                                100.0%                      100.0%
+API errors                                  0.0%                        0.0%
+Intent accuracy                            97.5%                       97.5%
+Intent macro-F1                            0.977                       0.977
+Slot exact match                          100.0%                      100.0%
+Fully correct                              97.5%                       97.5%
+Latency p50 (ms)                             366                         390
+Latency p95 (ms)                             644                         654
+Avg input tokens                             188                         188
+Avg output tokens                             92                          89
+
+Run 1 (openai/gpt-oss-20b): 5 wrong answers. First 5:
+  - "where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+  - "where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+  - "yeah where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+  - "okay so where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+  - "where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+
+Run 2 (openai/gpt-oss-120b): 5 wrong answers. First 5:
+  - "where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+  - "where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+  - "yeah where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+  - "okay so where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
+  - "where is my order it's been an hour"
+      wrong: intent | expected: {'intent': 'late_order', 'order_id': None, 'item': None} | got: {'intent': 'order_status', 'order_id': None, 'item': None}
